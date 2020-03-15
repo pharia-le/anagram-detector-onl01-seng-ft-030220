@@ -11,7 +11,7 @@ class Anagram
     # word = "listen"
     # list = ['apple', 'cat', 'inlets']
     list.detect do |list_word|
-      word
+      (win - x_spaces).empty? || (win - o_spaces).empty?
     end
       
   end
