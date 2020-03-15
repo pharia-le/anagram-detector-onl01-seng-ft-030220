@@ -1,4 +1,6 @@
 # Your code goes here!
+require 'pry'
+
 class Anagram
   
   attr_accessor :word
@@ -13,7 +15,8 @@ class Anagram
     
     
     list.detect do |same|
-      (word - x).empty?
+      binding.pry
+      (word - same).empty?
     end
       
   end
