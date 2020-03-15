@@ -12,6 +12,9 @@ class Anagram
     # list = ['apple', 'cat', 'inlets']
     list.detect do |list_word|
       
+      
+    end
+      
   end
   
   
