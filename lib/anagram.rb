@@ -14,8 +14,8 @@ class Anagram
     # list = ['apple', 'cat', 'inlets']
     
     
-    list.detect do |same|
-      word.sort == same.sort
+    list.detect do |x|
+      |x| x.split("").sort == @word.split("").sort}
     end
       
   end
