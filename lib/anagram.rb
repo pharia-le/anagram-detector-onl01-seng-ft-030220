@@ -3,7 +3,7 @@ class Anagram
   
   attr_accessor :word
   
-  def initialize(word)
+  def initialize(word, list)
     @word = word
     @match
   end
