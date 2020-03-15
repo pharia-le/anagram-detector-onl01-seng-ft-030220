@@ -15,7 +15,7 @@ class Anagram
     
     
     list.detect do |same|
-      
+      word.sort == same.sort
     end
       
   end
