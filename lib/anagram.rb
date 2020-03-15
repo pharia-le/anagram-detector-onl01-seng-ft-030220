@@ -8,7 +8,7 @@ class Anagram
     @match
   end
   
-  def match
+  def match(list)
     
     
   end
