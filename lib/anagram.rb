@@ -1,15 +1,18 @@
 # Your code goes here!
 class Anagram
   
-  attr_accessor :word, :list
+  attr_accessor :word
   
   def initialize(word)
     @word = word
   end
   
   def match(list)
-    @list = list
-    @list.detect do |x|
+    # word = "listen"
+    # list = ['apple', 'cat', 'inlets']
+    
+    
+    list.detect do |same|
       (word - x).empty?
     end
       
