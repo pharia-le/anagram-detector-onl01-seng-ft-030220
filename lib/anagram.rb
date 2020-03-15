@@ -16,7 +16,7 @@ class Anagram
     
     list.detect do |same|
       binding.pry
-      (word - same).empty?
+      (word.to_a - same.to_a).empty?
     end
       
   end
