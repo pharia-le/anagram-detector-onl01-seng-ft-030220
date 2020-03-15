@@ -15,7 +15,7 @@ class Anagram
     
     
     list.detect do |x|
-      |x| x.split("").sort == @word.split("").sort
+      x.split("").sort == @word.split("").sort
     end
       
   end
