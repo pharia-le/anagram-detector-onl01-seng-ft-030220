@@ -8,8 +8,8 @@ class Anagram
   end
   
   def match(list)
-    # word = listen
-    # list = 
+    # word = "listen"
+    # list = ['apple', 'cat', 'inlets']
     
   end
   
