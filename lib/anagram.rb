@@ -8,7 +8,8 @@ class Anagram
   end
   
   def match(list)
-    
+    # word = listen
+    # list = 
     
   end
   
