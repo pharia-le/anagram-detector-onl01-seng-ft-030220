@@ -9,14 +9,13 @@ class Anagram
     @word = word
   end
   
-  def match(list)
+  def match(array)
     # word = "listen"
     # list = ['apple', 'cat', 'inlets']
     
     
-    list.detect do |sa,e
-    end
-      
+    array.select {|x| x.split("").sort == @word.split("").sort}
+
   end
   
   
