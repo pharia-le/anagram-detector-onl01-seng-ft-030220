@@ -10,7 +10,8 @@ class Anagram
   def match(list)
     # word = "listen"
     # list = ['apple', 'cat', 'inlets']
-    list.each 
+    list.de do |list_word|
+      
   end
   
   
