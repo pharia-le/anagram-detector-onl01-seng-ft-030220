@@ -11,11 +11,10 @@ class Anagram
   
   def match(array)
     # word = "listen"
-    # list = ['apple', 'cat', 'inlets']
+    # array = ['apple', 'cat', 'inlets']
     
     
     array.select {|x| x.split("").sort == @word.split("").sort}
-
   end
   
   
