@@ -10,8 +10,8 @@ class Anagram
   def match(list)
     # word = "listen"
     # list = ['apple', 'cat', 'inlets']
-    list.detect do |list_word|
-      (word - list_word).empty?
+    list.detect do |x|
+      (word - x).empty?
     end
       
   end
